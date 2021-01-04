@@ -29,7 +29,7 @@ class _State extends State<MyApp> {
                     alignment: Alignment.center,
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      'Nupay',
+                      'Anonymous',
                       style: TextStyle(
                           color: Colors.blue,
                           fontWeight: FontWeight.w500,
@@ -85,7 +85,7 @@ class _State extends State<MyApp> {
                 Container(
                     child: Row(
                       children: <Widget>[
-                        Text('Dont have account in nupay?'),
+                        Text('Dont have account?'),
                         FlatButton(
                           textColor: Colors.blue,
                           child: Text(
